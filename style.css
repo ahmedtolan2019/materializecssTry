@@ -37,3 +37,6 @@ td {
 .test {
     border: 2px solid red;
 }
+.round-corner{
+    border-radius: 50px !important;
+}
