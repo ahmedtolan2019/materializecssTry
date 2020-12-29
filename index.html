@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fares page</title>
+    <!-- materlize library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- main style file -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="container row">
+
+        <section class="top col s12 ">
+            <div class="card">
+
+                <div class="row card-content">
+
+                    <form action="#" class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12 ">
+
+                                <input disabled value="اسم الشخص غير قابل للعديل" id="disabled" type="text"
+                                    class="validate">
+                                <label for="disabled">الاسم</label>
+                            </div>
+                        </div>
+                        <div class="row">
+
+
+                            <div class="input-field col s12">
+                                <select>
+                                    <option value="" disabled selected>نوع التعديل</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </select>
+                                <label>نوع التعديل</label>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                        <label for="textarea1">ملاحظات</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row">
+                            <div class="file-field file-upload input-field col s12">
+                                <div class="btn">
+                                    <span>File</span>
+                                    <input type="file">
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text" value="أضف صورة">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn waves-effect waves-light right" type="submit" name="action">حفظ
+                            <i class="material-icons right">send</i>
+                        </button>
+
+                    </form>
+
+
+                </div>
+            </div>
+
+
+
+        </section>
+        <section class="medium col s12">
+            <div class="card">
+                <div class="card-content">
+                    <h3 class="center-align">تاريخ التعديلات</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottom col s12">
+            <div class="card">
+                <div class="card-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="left">الصورة</th>
+                                <th>نوع التعديل</th>
+
+                                <th>الاسم</th>
+                                <th>الشخص الذي قام بالتعديل</th>
+                                <th>تاريخ التعديل</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th class="left"><img class="table-img" src="./images/sample.jpg" alt=""></th>
+                                <td>تعديل 1</td>
+                                <td>احمد</td>
+                                <td>مستخدم 1</td>
+                                <td>2/10/2020</td>
+                            </tr>
+                            <tr>
+                                <th class="left"><img class="table-img" src="./images/sample.jpg" alt=""></th>
+                                <td>تعديل </td>
+                                <td>احمد</td>
+                                <td>مستخدم 1</td>
+                                <td>2/10/2020</td>
+                            </tr>
+                            <tr>
+                                <th class="left"><img class="table-img" src="./images/sample.jpg" alt=""></th>
+                                <td>تعديل </td>
+                                <td>احمد</td>
+                                <td>مستخدم 1</td>
+                                <td>2/10/2020</td>
+                            </tr>
+                            <tr>
+                                <th class="left"><img class="table-img" src="./images/sample.jpg" alt=""></th>
+                                <td>تعديل </td>
+                                <td>احمد</td>
+                                <td>مستخدم 1</td>
+                                <td>2/10/2020</td>
+                            </tr>
+                            <tr>
+                                <th class="left"><img class="table-img" src="./images/sample.jpg" alt=""></th>
+                                <td>تعديل </td>
+                                <td>احمد</td>
+                                <td>مستخدم 1</td>
+                                <td>2/10/2020</td>
+                            </tr>
+                            <tr>
+                                <th class="left"><img class="table-img" src="./images/sample.jpg" alt=""></th>
+                                <td>تعديل </td>
+                                <td>احمد</td>
+                                <td>مستخدم 1</td>
+                                <td>2/10/2020</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
